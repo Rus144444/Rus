@@ -35,9 +35,7 @@ body{
 .item__container__work{
     position: relative;
     max-width: 700px;
-    max-height: 150px;
-    min-height: 200px;
-    min-width: 500px;
+    max-height: 250px;
     background: rgb(232, 235, 135);
     box-shadow: 3px 3px 7px 5px;
     border-radius: 40px;
@@ -57,15 +55,13 @@ body{
     line-height: 180%;
 }
 .item__container__hobby{
-    min-height: 150px;
-    min-width: 700px;
     box-shadow: 3px 3px 7px 5px;
     border-radius: 40px;
     margin-bottom: 30px;
     padding: 30px;
     background: #0041ff;
-    min-width: 500px;
-    min-height: 150px;
+    max-width: 700px;
+    max-height: 250px;
 }
 .hobby__title{
     margin-bottom: 10px;
@@ -80,14 +76,12 @@ body{
     line-height: 180%;
 }
 .item__container__survey{
-    min-height: 150px;
-    min-width: 700px;
     box-shadow: 3px 3px 7px 5px;
     border-radius: 40px;
     padding: 30px;
     background: rgb(135, 235, 163);
-    min-width: 500px;
-    min-height: 150px;
+    max-width: 700px;
+    max-height: 250px;
 }
 .survey__title{
     margin-bottom: 10px;
@@ -113,7 +107,7 @@ body{
 
 /* Tablet */
 
-@media (max-width: 991.98px){
+@media (max-width: 791.98px){
     [class*=__container] {
    max-width: 750px;}
 }
@@ -121,7 +115,7 @@ body{
 
 /* Mobile */
 
-@media (max-width: 767.98px){
+@media (max-width: 467.98px){
     [class*=__container] {
    max-width: none;}
 }
